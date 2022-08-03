@@ -10791,4 +10791,25 @@ textarea.form-control-lg {
   color: black;
 }
 
+.shopping-cart-items {
+  position: relative;
+  padding: 1rem;
+}
+.shopping-cart-items-logo {
+  font-size: 1.5rem;
+}
+.shopping-cart-items-price {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+  padding: 0.2rem;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1;
+  /* vertical-align: text-bottom; */
+  color: #fff;
+  font-weight: 500;
+}
+
 /*# sourceMappingURL=style.css.map */

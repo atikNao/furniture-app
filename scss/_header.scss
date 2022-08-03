@@ -40,3 +40,32 @@
 
     
 }
+
+.shopping-cart {
+
+    &-items {
+        position: relative;
+        padding: 1rem;
+
+        &-logo {
+            font-size: 1.5rem;
+
+        }
+
+
+        &-price {          
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: black;
+            padding: .2rem;
+            border-radius:50%;
+            text-align: center;
+            line-height: 1;
+            /* vertical-align: text-bottom; */
+            color: #fff;
+            font-weight: 500;
+
+        }
+    }
+}
