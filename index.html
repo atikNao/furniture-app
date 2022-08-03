@@ -1,30 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/fontawesome.css">
-    <title>Furniture</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/fontawesome.css">
+  <title>Furniture</title>
 </head>
+
 <body>
-    <div class="container py-5">
-        <button type="button" class="btn position-relative">
-           <i class="fas fa-shopping-cart"></i>
-            <span class="badge position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
-              10
-            </span>
-          </button>
-        
-        <div class="position-relative search">            
-            <input type="search" name="search" id="search"  placeholder="search" >
-            <button type="button" class="position-absolute"><i class="fas fa-search"></i></button>
-            <!-- <span class="position-absolute"></span> -->
-        </div>        
+  <!-- START SECTION 1 THE HEADER -->
+  <header>
+    <div class="container">
+      <div class="row">
+        <!-- START  DESIGN THE SEARCH BUTTON -->
+        <div class="position-relative search">
+          <input type="search" name="search" id="search" placeholder="search">
+          <button type="button" class="position-absolute"><i class="fas fa-search"></i></button>
+        </div>
+        <!-- END DESIGN THE SEARCH BUTTON -->
+
+        <!-- START DESIGN THE SHOPPING CART -->
+        <div class="shopping-cart">
+          <div class="shopping-cart-logo">
+            <a href=""><i class="fas fa-shopping-cart"></i></a>
+          </div>
+          <div class="shopping-cart-items">
+            <div class="shopping-cart-items-item">
+              <span class="shopping-cart-items-item-no position-absolute top-50 start-50 translate-middle"
+                id="cart-item-no">0</span>
+            </div>
+          </div>
+        </div>
+        <!-- END DESIGN THE SHOPPING CART -->
+      </div>
     </div>
-   
-    <!-- LINK BOOTSTRAP 5 JAVASCRIPT BUNDILE  -->
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </header>
+  <!-- END SECTION 1 THE HEADER -->
+
+  <!-- LINK BOOTSTRAP 5 JAVASCRIPT BUNDILE  -->
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>

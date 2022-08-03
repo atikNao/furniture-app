@@ -34,38 +34,51 @@
     &:hover{
         button {
             color: black;
-        }
-       
+        }       
     }
-
-    
 }
 
 .shopping-cart {
+    position: relative;
+    width: 60px;
+    height: 50px;
+    padding-top: .8rem;   
+
+    &-logo {
+        display: inline-block;
+
+        a {
+            text-decoration: none;
+            color: rgb(119, 119, 119);
+
+            &:hover {
+                color: black;
+            }
+            
+            i {
+                font-size: 2rem;
+            }
+        }
+    }
 
     &-items {
-        position: relative;
-        padding: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
 
-        &-logo {
-            font-size: 1.5rem;
+        &-item {
+            position: relative;
+            display: inline-block;
+            border: 1px solid #fff;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            background-color: #000;
 
-        }
-
-
-        &-price {          
-            position: absolute;
-            top: 0;
-            right: 0;
-            background-color: black;
-            padding: .2rem;
-            border-radius:50%;
-            text-align: center;
-            line-height: 1;
-            /* vertical-align: text-bottom; */
-            color: #fff;
-            font-weight: 500;
-
+            &-no {
+                color: #fff;
+                font-size: .8rem;
+            }
         }
     }
 }
