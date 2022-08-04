@@ -1,46 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/assets/css/style.css">
-  <link rel="stylesheet" href="/assets/css/fontawesome.css">
-  <title>Furniture</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/fontawesome.css">
+    <title>Furniture Galary</title>
 </head>
-
 <body>
-  <!-- START SECTION 1 THE HEADER -->
-  <header>
-    <div class="container">
-      <div class="row">
-        <!-- START  DESIGN THE SEARCH BUTTON -->
-        <div class="position-relative search">
-          <input type="search" name="search" id="search" placeholder="search">
-          <button type="button" class="position-absolute"><i class="fas fa-search"></i></button>
-        </div>
-        <!-- END DESIGN THE SEARCH BUTTON -->
-
-        <!-- START DESIGN THE SHOPPING CART -->
-        <div class="shopping-cart">
-          <div class="shopping-cart-logo">
-            <a href=""><i class="fas fa-shopping-cart"></i></a>
-          </div>
-          <div class="shopping-cart-items">
-            <div class="shopping-cart-items-item">
-              <span class="shopping-cart-items-item-no position-absolute top-50 start-50 translate-middle"
-                id="cart-item-no">0</span>
+    <header>
+        <!-- HEADER MENU -->
+        <div class="container d-flex justify-content-between">
+            <div class="header-search">
+               <h1 class="fw-bold pt-2">atiQ</h1>
             </div>
-          </div>
-        </div>
-        <!-- END DESIGN THE SHOPPING CART -->
-      </div>
-    </div>
-  </header>
-  <!-- END SECTION 1 THE HEADER -->
+            <div class="header-search">
 
-  <!-- LINK BOOTSTRAP 5 JAVASCRIPT BUNDILE  -->
-  <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+               <!-- START  DESIGN THE SEARCH BUTTON -->
+             <div class="position-relative search">
+                <input type="search" name="search" id="search" placeholder="search">
+                <button type="button" class="position-absolute"><i class="fas fa-search"></i></button>
+            </div>
+          <!-- END DESIGN THE SEARCH BUTTON -->
+  
+            </div>
+            <div class="header-link">
+                <div class="user">
+                    <div class="user-icon">
+                        <a href="" id="user">
+                            <i class="fas fa-user"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="div1">
+                    <div class="div2">
+                        <a href="" id="shopping-cart">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                    </div>
+                    <div class="div3">
+                        <span id="shopping-cart-items">10</span>
+                    </div>
+                </div>
+                <div class="top-btn">
+                    <div class="top-btn-box">
+                        <div class="top-btn-box-line"></div>
+                        <div class="top-btn-box-line"></div>   
+                        <div class="top-btn-box-line"></div>   
+                    </div>                
+                </div>                
+            </div>         
+        </div>
+        <!-- END HEADER MENU -->
+
+        <div class="container">
+            <div class="row py-5 my-5">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="fs-2 fw-bold">Wooden Sofa made by atiQ furniture</div>
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla illum accusantium tempora!
+                    </div>
+                    <div>
+                        <a href="">Explore Collection <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-6 col-sm-12">
+                    <img src="./images/sofa.png" alt="Sofa" class="img-fluid">
+                </div>               
+            </div>
+        </div>        
+    </header>
+    
+    <section id="company" class="company py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <span> </span> Trusted by Inddustry Lebels 
+                </div>
+            </div>
+            <div class="row">
+                <div>Facebook</div>
+                <div>Microsof</div>
+                <div>VISA</div>
+                <div>UBER</div>
+                <div>CocaCola</div>
+                <div>NETFLIX</div>
+            </div>
+        </div>        
+    </section>
+     
+    <!-- LINK BOOTSTRAP 5 JAVASCRIPT BUNDILE  -->
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>
