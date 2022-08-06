@@ -10902,6 +10902,11 @@ textarea.form-control-lg {
   font-size: 1.1rem;
 }
 
+.carousel-item img {
+  width: 100%;
+  height: 300px;
+}
+
 .products {
   padding: 5rem 0;
 }
@@ -10993,6 +10998,9 @@ textarea.form-control-lg {
   color: #4d4d4d;
   padding: 0.2rem 0;
 }
+.footer-nav ul li a:hover {
+  font-weight: 500;
+}
 .footer-company-des {
   color: #4d4d4d;
 }
@@ -11005,6 +11013,9 @@ textarea.form-control-lg {
 }
 .footer-social .icon i {
   color: #4d4d4d;
+}
+.footer-social .icon i:hover {
+  color: #000000;
 }
 
 .back-to-top {
