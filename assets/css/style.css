@@ -10904,7 +10904,12 @@ textarea.form-control-lg {
 
 .carousel-item img {
   width: 100%;
-  height: 300px;
+}
+@media (min-width: 992px) {
+  .carousel-item img {
+    width: 100%;
+    height: 300px;
+  }
 }
 
 .products {
