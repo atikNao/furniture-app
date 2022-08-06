@@ -1,0 +1,43 @@
+@use "./customs" as *;
+.footer {
+    background-color: $my-bg-color;
+    &-nav {
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+
+            li {
+                padding: .2rem 0;
+
+                a{
+                    display: block;
+                    text-decoration: none;
+                    color: lighten(#000000, 30%);
+                    padding: .2rem 0;
+                }
+            }
+        }       
+    }
+    &-company-des {
+        color: lighten(#000000, 30%);
+    }
+}
+
+.footer-social {
+    background-color: $my-bg-color;
+    .copy {
+        color: lighten(#000000, 30%);
+    }
+    .icon {
+        i {
+            color: lighten(#000000, 30%);
+        }
+    }
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

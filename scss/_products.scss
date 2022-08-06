@@ -1,0 +1,40 @@
+@use  "./customs" as *;
+
+.products {
+    padding: 5rem 0;
+
+    &-card {
+        background-color: $my-bg-color;
+        padding: 1rem;
+    
+        &-img {
+            padding: 2rem 0;
+            background-color: $my-bg-color;
+
+            img {
+                display: block;
+                margin: 0 auto;
+                width: 70%;
+                height: 400px;
+        
+                // @include media-breakpoint-down(md){
+                //     width: 100%;
+                //     height: 300px;
+                // }
+            }           
+        }
+
+        &-details {
+            padding: 1rem 0;
+
+            &-name {
+                color: darken(#fff, 50%);
+            }
+
+            &-price {
+                font-weight: bold;
+            }
+        }
+    }   
+}
+

@@ -1,0 +1,12 @@
+@use "./customs" as *;
+
+.intro {
+    margin: 0;
+   padding: 10rem 0;   
+    background-color: #E7F0FF;   
+    
+    &-des{
+        color: lighten(#000, 30%);
+        font-size: 1.1rem;
+    }    
+}
