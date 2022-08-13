@@ -1,107 +1,4 @@
 @charset "UTF-8";
-header {
-  background-color: #E7F0FF;
-  margin: 0;
-}
-header .search {
-  max-width: 100%;
-  float: left;
-  padding-top: 0.5rem;
-}
-header .search input {
-  width: 100%;
-  padding-left: 1rem;
-  padding-right: 2.2rem;
-  background-color: transparent;
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
-  border-bottom: 1px solid #2b2a2a;
-  line-height: 2;
-}
-header .search input:focus {
-  color: #000000;
-  border-color: #000000;
-  outline: 0;
-}
-header .search button {
-  border: none;
-  background-color: transparent;
-  color: #2b2a2a;
-  right: 1rem;
-  top: 50%;
-  transform: translateY(-50%);
-  line-height: 2;
-}
-header .user {
-  position: relative;
-  display: inline-block;
-  padding: 0.5rem;
-  margin: 0;
-}
-header .user-icon {
-  padding-top: 0.8rem;
-  float: left;
-}
-header .user-icon a {
-  color: #2b2a2a;
-  padding: 0.5rem;
-}
-header .user i {
-  font-size: 1.2rem;
-}
-header .div1 {
-  position: relative;
-  display: inline-block;
-  padding: 0.5rem;
-}
-header .div2 {
-  float: left;
-  padding-top: 0.8rem;
-}
-header .div2 i {
-  font-size: 1.2rem;
-}
-header .div2 a {
-  color: #2b2a2a;
-  padding: 0.5rem;
-}
-header .div3 {
-  position: relative;
-  float: right;
-  background-color: #000000;
-  border: 1px solid #E7F0FF;
-  width: 17px;
-  height: 17px;
-  border-radius: 50%;
-  margin-left: -20px;
-  margin-top: 3px;
-}
-header .div3 span {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  font-size: 0.6rem;
-  font-weight: 600;
-}
-header .top-btn {
-  position: relative;
-  display: inline-block;
-  padding: 0.5rem 1rem;
-}
-header .top-btn-box {
-  float: left;
-  cursor: pointer;
-}
-header .top-btn-box-line {
-  width: 20px;
-  height: 2px;
-  background-color: #2b2a2a;
-  margin-bottom: 4px;
-}
-
 /*!
  * Bootstrap  v5.2.0 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -10861,6 +10758,114 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+header {
+  background-color: #E7F0FF;
+  margin: 0;
+}
+header .search {
+  max-width: 100%;
+  float: left;
+  padding-top: 0.5rem;
+}
+@media (max-width: 575.98px) {
+  header .search {
+    display: none;
+  }
+}
+header .search input {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 2.2rem;
+  background-color: transparent;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #2b2a2a;
+  line-height: 2;
+}
+header .search input:focus {
+  color: #000000;
+  border-color: #000000;
+  outline: 0;
+}
+header .search button {
+  border: none;
+  background-color: transparent;
+  color: #2b2a2a;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  line-height: 2;
+}
+header .user {
+  position: relative;
+  display: inline-block;
+  padding: 0.5rem;
+  margin: 0;
+}
+header .user-icon {
+  padding-top: 0.8rem;
+  float: left;
+}
+header .user-icon a {
+  color: #2b2a2a;
+  padding: 0.5rem;
+}
+header .user i {
+  font-size: 1.2rem;
+}
+header .div1 {
+  position: relative;
+  display: inline-block;
+  padding: 0.5rem;
+}
+header .div2 {
+  float: left;
+  padding-top: 0.8rem;
+}
+header .div2 i {
+  font-size: 1.2rem;
+}
+header .div2 a {
+  color: #2b2a2a;
+  padding: 0.5rem;
+}
+header .div3 {
+  position: relative;
+  float: right;
+  background-color: #000000;
+  border: 1px solid #E7F0FF;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  margin-left: -20px;
+  margin-top: 3px;
+}
+header .div3 span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+header .top-btn {
+  position: relative;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+}
+header .top-btn-box {
+  float: left;
+  cursor: pointer;
+}
+header .top-btn-box-line {
+  width: 20px;
+  height: 2px;
+  background-color: #2b2a2a;
+  margin-bottom: 4px;
+}
+
 .img-holder {
   display: flex;
   justify-content: space-between;
@@ -10894,8 +10899,7 @@ textarea.form-control-lg {
 
 .intro {
   margin: 0;
-  padding: 10rem 0;
-  background-color: #E7F0FF;
+  padding-top: 5rem;
 }
 .intro-des {
   color: #4d4d4d;
@@ -10927,7 +10931,12 @@ textarea.form-control-lg {
   display: block;
   margin: 0 auto;
   width: 70%;
-  height: 400px;
+  height: 250px;
+}
+@media (min-width: 576px) {
+  .products-card-img img {
+    height: 400px;
+  }
 }
 .products-card-details {
   padding: 1rem 0;

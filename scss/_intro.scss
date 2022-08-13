@@ -2,8 +2,12 @@
 
 .intro {
     margin: 0;
-   padding: 10rem 0;   
-    background-color: #E7F0FF;   
+    padding-top: 5rem;
+    
+    // @include media-breakpoint-up(md) {
+    //     padding: 5rem 0;
+
+    // }
     
     &-des{
         color: lighten(#000, 30%);
