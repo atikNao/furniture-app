@@ -11039,4 +11039,27 @@ header .show {
   right: 0;
 }
 
+.auth-form {
+  max-width: 100%;
+  margin: 0 auto;
+}
+@media (min-width: 576px) {
+  .auth-form {
+    width: 350px;
+  }
+}
+.auth-form-body {
+  background-color: rgba(239, 245, 255, 0.356);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(207, 207, 207);
+}
+.auth-form-login-callout {
+  margin-top: 1rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(207, 207, 207);
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,25 @@
+@use "./customs" as *;
+
+.auth-form {
+    max-width: 100%;
+    margin: 0 auto;
+
+    @include media-breakpoint-up(sm){
+        width: 350px;
+    }
+
+    &-body {
+        background-color: $my-bg-color;
+        padding: 1rem;
+        border-radius: .5rem;
+        border: 1px solid rgb(207, 207, 207);
+    }
+
+    &-login-callout {
+        margin-top: 1rem;
+        padding: 1rem;
+        text-align: center;
+        border-radius: .5rem;
+        border: 1px solid rgb(207, 207, 207); 
+    }
+}
