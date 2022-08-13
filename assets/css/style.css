@@ -10866,37 +10866,6 @@ header .top-btn-box-line {
   margin-bottom: 4px;
 }
 
-.img-holder {
-  display: flex;
-  justify-content: space-between;
-}
-.img-holder .div1 {
-  width: 60%;
-}
-.img-holder .div2 {
-  width: 40%;
-}
-.img-holder .div2 img {
-  height: 100%;
-}
-
-.products-card {
-  background-color: #E7F0FF;
-  padding: 1rem;
-}
-.products-card img {
-  display: block;
-  margin: 0 auto;
-  width: 70%;
-  height: 400px;
-}
-@media (max-width: 767.98px) {
-  .products-card img {
-    width: 100%;
-    height: 300px;
-  }
-}
-
 .intro {
   margin: 0;
   padding-top: 5rem;
@@ -10930,13 +10899,7 @@ header .top-btn-box-line {
 .products-card-img img {
   display: block;
   margin: 0 auto;
-  width: 70%;
   height: 250px;
-}
-@media (min-width: 576px) {
-  .products-card-img img {
-    height: 400px;
-  }
 }
 .products-card-details {
   padding: 1rem 0;

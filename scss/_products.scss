@@ -14,12 +14,8 @@
             img {
                 display: block;
                 margin: 0 auto;
-                width: 70%;
-                height: 250px;
-        
-                @include media-breakpoint-up(sm){
-                    height: 400px;
-                }
+                // width: 70%;
+                height: 250px;        
             }           
         }
 
