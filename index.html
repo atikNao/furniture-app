@@ -9,7 +9,7 @@
     <title>Furniture Galary</title>
 </head>
 <body>
-    <header>
+    <header id="header" class="header">
         <div class="container d-flex justify-content-between">
             <!-- START Logo -->
             <div class="header-logo">
@@ -45,7 +45,7 @@
                         <span id="shopping-cart-items">10</span>
                     </div>
                 </div>
-                <div class="top-btn">
+                <div class="top-btn" id="top-btn">
                     <div class="top-btn-box">
                         <div class="top-btn-box-line"></div>
                         <div class="top-btn-box-line"></div>   
@@ -54,6 +54,15 @@
                 </div>                
             </div>
             <!-- END HEADER MENU -->         
+        </div>
+        <div class="header-nav" id="header-nav">
+            <button class="btn btn-close float-end m-1" id="btn-close"></button>
+            <ul class="nav">
+                <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Shop</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            </ul>
         </div>        
     </header>
     <!-- END THE HEADER    -->
@@ -98,7 +107,7 @@
             <div class="row">
                 <div class="col-lg-7 col-sm-12 pb-lg-0 pb-5">
                     <div class="products-card">
-                        <div class="products-card-img">
+                        <div class="products-card-img bg-transparent">
                             <a href="#"><img src="./images/Untitled-1.png" alt="Home Sofa" title="Wooden Sofa"></a>
                         </div>
                         <div class="products-card-des">
@@ -109,7 +118,7 @@
                 </div>
                 <div class="col-lg-5 col-sm-12">
                     <div class="products-card">
-                        <div class="products-card-img">
+                        <div class="products-card-img bg-transparent">
                             <a href="#"><img src="./images/chair-1.png" alt="Home Chair" title="Home chair"></a>
                         </div>
                         <div class="products-card-des">
@@ -236,7 +245,7 @@
                         </div>                        
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 pb-5">
+                <div class="col-lg-5 col-md-6 pb-5">
                     <div class="products-freatured">
                         <div class="products-card-img">
                             <a href="#"><img src="./images/20.png" alt="Home Furniture" title="Plant & Pots"></a>
@@ -244,7 +253,7 @@
                         </div>                        
                     </div>
                 </div>                
-                <div class="col-lg-8 col-md-6">
+                <div class="col-lg-7 col-md-6">
                     <div class="products-freatured">
                         <div class="products-card-img">
                             <a href="#"><img src="./images/Untitled-1.png" alt="Home Furniture" title="Home Furniture"></a>
@@ -362,7 +371,9 @@
         <i class="fas fa-chevron-up"></i>
       </a>
     
-     
+    <!-- LINK CUSTOM SCRIPT FILE  -->
+    <script src="./script.js"></script>
+
     <!-- LINK BOOTSTRAP 5 JAVASCRIPT BUNDILE  -->
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>

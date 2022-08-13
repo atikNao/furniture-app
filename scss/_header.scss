@@ -1,7 +1,7 @@
 @use  "./customs" as *;
 
 header {
-    background-color: #E7F0FF;
+    position: relative;
     margin: 0;
 
     .search{
@@ -127,4 +127,40 @@ header {
             }
         }
     }
+    
+    .header-nav {
+        display: none;
+        background-color:$my-bg-color-1;
+        position: absolute;
+        top: 0;
+        right:0;      
+        z-index: 99999;
+        width: 50%;
+        transform: translateX(100%);
+        transition: 1s ease-in-out;       
+
+        .nav {
+            height: 100vh;
+            padding-top: 3rem;
+            
+            @include media-breakpoint-down(md) {
+                flex-direction: column;
+            }
+        }       
+    }
+
+    .show {
+        transform: translateX(0);
+        transition: 1s ease-in-out;
+        display: block;
+    }       
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #E7F0FF;
+}
+
