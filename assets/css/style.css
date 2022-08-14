@@ -10866,29 +10866,27 @@ header .top-btn-box-line {
   margin-bottom: 4px;
 }
 header .header-nav {
-  display: none;
+  visibility: visible;
   background-color: #FCDDED;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   z-index: 99999;
-  width: 50%;
+  width: 20rem;
   transform: translateX(100%);
-  transition: 1s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 header .header-nav .nav {
   height: 100vh;
   padding-top: 3rem;
-}
-@media (max-width: 767.98px) {
-  header .header-nav .nav {
-    flex-direction: column;
-  }
+  flex-direction: column;
+  padding: 2rem;
+  align-items: flex-start;
 }
 header .show {
   transform: translateX(0);
-  transition: 1s ease-in-out;
-  display: block;
+  transition: transform 0.5s ease-in-out;
+  visibility: visible;
 }
 
 .sticky {

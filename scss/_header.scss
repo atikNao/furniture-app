@@ -129,30 +129,29 @@ header {
     }
     
     .header-nav {
-        display: none;
+        visibility: visible;
         background-color:$my-bg-color-1;
-        position: absolute;
+        position: fixed;
         top: 0;
         right:0;      
         z-index: 99999;
-        width: 50%;
+        width: 20rem;
         transform: translateX(100%);
-        transition: 1s ease-in-out;       
+        transition: transform .5s ease-in-out;       
 
         .nav {
             height: 100vh;
             padding-top: 3rem;
-            
-            @include media-breakpoint-down(md) {
-                flex-direction: column;
-            }
+            flex-direction: column;
+            padding: 2rem; 
+            align-items: flex-start;          
         }       
     }
 
     .show {
         transform: translateX(0);
-        transition: 1s ease-in-out;
-        display: block;
+        transition: transform .5s ease-in-out;
+        visibility: visible;
     }       
 }
 
