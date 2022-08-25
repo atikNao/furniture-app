@@ -10867,24 +10867,24 @@ header .top-btn-box-line {
 }
 header .header-nav {
   visibility: visible;
-  background-color: #FCDDED;
+  background-color: #E7F0FF;
   position: fixed;
   top: 0;
   right: 0;
   z-index: 99999;
-  width: 20rem;
-  transform: translateX(100%);
+  width: 100%;
+  transform: translateY(-100%);
+  opacity: 0.95;
   transition: transform 0.5s ease-in-out;
 }
 header .header-nav .nav {
   height: 100vh;
   padding-top: 3rem;
-  flex-direction: column;
   padding: 2rem;
   align-items: flex-start;
 }
 header .show {
-  transform: translateX(0);
+  transform: translateY(0);
   transition: transform 0.5s ease-in-out;
   visibility: visible;
 }
